@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="LoginWeb.Principal1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="CSS/Master.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'/>
+    <script src="js/Master.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="body">
+    <h1 style="height:auto;
+  display:table;
+  width: 80%;
+  text-align:center;
+  overflow: auto;
+  margin-top: 0.5%;
+  margin-left: 10%;
+  position: absolute;
+  top: 0;left: 0;bottom: 0;right: 0;
+  color: #4986c5;
+  font-family: 'Raleway', sans-serif;
+  font-weight:300;
+  font-size:3em;">Scraapmind</h1>
+    <ul class="ul">
+   <li class="li"><a href="Menu.aspx">Scraapmind</a></li><!--
+--><li class="li"><a href="Usuarios.aspx">Usuarios</a></li><!--
+--><li class="li"><a href="Scraapear.aspx">Scraapear</a></li><!--
+--><li class="li"><a href="Informes.aspx">Informes</a></li><!--
+--><li class="li"><a href="Login.aspx">Salir</a></li>
+ </ul>
+
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
