@@ -6,5 +6,5 @@
     <h4 style="text-align:center"> En Construcción</h4>
 
 
-    <asp:Button ID="btnRegistraduria" runat="server" Text="Button" OnClick="btnRegistraduria_Click" />
+    <asp:Button ID="btnRegistraduria" runat="server" Text="Button" OnClick="btnRegistraduria_Click" BackColor="#3399FF" BorderColor="White" BorderStyle="Dashed" />
 </asp:Content>
